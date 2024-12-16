@@ -9,7 +9,7 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'SuperProtectedDirectory\\' => 24,
+            'SuperProtectedDirectoryForFacades\\' => 34,
         ),
         'F' => 
         array (
@@ -18,9 +18,9 @@ class ComposerStaticInitd751713988987e9331980363e24189ce
     );
 
     public static $prefixDirsPsr4 = array (
-        'SuperProtectedDirectory\\' => 
+        'SuperProtectedDirectoryForFacades\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/SuperProtectedDirectory',
+            0 => __DIR__ . '/../..' . '/SuperProtectedDirectoryForFacades',
         ),
         'Facades\\' => 
         array (

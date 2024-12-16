@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'SuperProtectedDirectory\\' => array($baseDir . '/SuperProtectedDirectory'),
+    'SuperProtectedDirectoryForFacades\\' => array($baseDir . '/SuperProtectedDirectoryForFacades'),
     'Facades\\' => array($baseDir . '/Facades'),
 );

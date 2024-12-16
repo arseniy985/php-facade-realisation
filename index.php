@@ -1,7 +1,7 @@
 <?php
 
-use Facades\TestFacade;
+use Facades\Test;
 
 require_once 'vendor/autoload.php';
 
-TestFacade::test(); // вывело все работае
+Test::test(); // вывело все работае

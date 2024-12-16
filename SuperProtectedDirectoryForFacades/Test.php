@@ -1,8 +1,8 @@
 <?php
 
-namespace SuperProtectedDirectory;
+namespace SuperProtectedDirectoryForFacades;
 
-class TestFacade
+class Test
 {
     public function test()
     {

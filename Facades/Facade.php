@@ -29,9 +29,9 @@ abstract class Facade {
      * @throws Exception
      */
     protected static function resolveFacade() {
-        $accessor = static::getFacadeAccessor();
+        $accessor = 'SuperProtectedDirectoryForFacades\\' . ucfirst(static::getFacadeAccessor());
         if (!class_exists($accessor)){
-            throw new Exception('Класс не найден');
+            throw new Exception("Класс не найден $accessor");
         }
         return new $accessor;
     }
